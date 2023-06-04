@@ -1,5 +1,5 @@
 [build]
-  command = "python Bot.py"
+  command = "python bot.py"
   publish = "."
 
 [context.deploy-preview.environment]
