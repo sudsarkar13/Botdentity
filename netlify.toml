@@ -1,0 +1,9 @@
+[build]
+  command = "python Bot.py"
+  publish = "."
+
+[context.deploy-preview.environment]
+  BOT_TOKEN = "6259603526:AAGqKsJ1rbdUFSuE3TwOIMDDdx3_MOWHglU"
+
+[context.production.environment]
+  BOT_TOKEN = "6259603526:AAGqKsJ1rbdUFSuE3TwOIMDDdx3_MOWHglU"
