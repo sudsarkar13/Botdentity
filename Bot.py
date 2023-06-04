@@ -14,7 +14,7 @@ def echo(update, context):
 # Main function
 def main():
     # Create an instance of the Updater class and pass in your bot token
-    updater = Updater(token='6259603526:AAGqKsJ1rbdUFSuE3TwOIMDDdx3_MOWHglU', use_context=True)
+    updater = Updater(token='YOUR_BOT_TOKEN', use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
